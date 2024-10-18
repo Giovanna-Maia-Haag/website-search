@@ -31,8 +31,8 @@
     display: none;
 }
 .container__slider-wrapper > .slider-wrapper__image-list > .image-list__items {
-    width: 30.0rem;
-    height: 45.0rem;
+    width: 25.0rem;
+    height: 40.0rem;
     background-color: var(--cinza-claro-do-header);
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.37);
 }
@@ -42,13 +42,14 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 20.0rem;
+    height: 15.0rem;
 }
 .image-item {
     width: 100%;
-    height: 25.0rem;
+    height: 20.0rem;
     
 }
+
 @media screen and (min-width:650px) {
     /* BOTAO */
 .slde-wrapper , .slide-button {
@@ -77,6 +78,20 @@
     right: 2%;
 }
 
+}
+
+@media screen and (min-width:700px) {
+    .container__slider-wrapper > .slider-wrapper__image-list > .image-list__items {
+        width: 30.0rem;
+        height: 45.0rem;
+    }
+    .image-item__textos {
+        height: 20.0rem;
+    }
+    .image-item {
+        height: 25.0rem;
+        
+    }
 }
 @media screen and (min-width:1000px) {
     .container {
