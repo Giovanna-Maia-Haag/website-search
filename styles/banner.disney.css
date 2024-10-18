@@ -1,0 +1,28 @@
+.banner__disney {
+    background-image: url("..//Images/disney.banner.jpg");
+    background-size: cover;
+    height: 35.0rem;
+    margin-top: 10.0rem;
+    position: relative;
+    z-index: 0;
+}
+.banner__disney--darker {
+    height: 35.0rem;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.banner__disney__texto {
+    z-index: 3;
+    font-size: 2.5rem;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cinza-claro-do-header);
+    position: relative;
+    margin: auto;
+    max-width: 70%;
+    height: auto;
+}
